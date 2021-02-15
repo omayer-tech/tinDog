@@ -1,0 +1,156 @@
+
+body{
+    font-family: "Mosntserrat" , sans-serif;
+}
+/*Title section*/
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.headline{
+    font-family: "Montserrat-black", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.download-button{
+    color: white;
+    margin-top: 2rem;
+    
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bolds;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 20%;
+    
+}
+/*Feature section*/
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.testi-h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+/*Testimoniels*/
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    padding: 3%;
+}
+.testi-text{
+    color: white;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-img{
+    width: 12%;
+    margin: 3% 7%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*Pricing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.chihuhua{
+    margin-top: 18%;
+}
+.labrador{
+    margin-top: 18%;
+}
+.pricing-column{
+    padding: 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta h3{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 2;
+}
+#cta .download-button{
+    margin: 0 8px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer p{
+    margin-top: 3%;
+}
+.footer-icons{
+    margin: 0 2%;
+}
+@media (max-width:995px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        margin-top: 20%;
+    }
+    #title{
+        text-align: center;
+    }
+    .press-img{
+        width: 20%;
+    }
+}
